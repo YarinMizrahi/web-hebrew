@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* רקע שחור */
+    color: #ffffff; /* טקסט לבן */
+}
+
+.navbar {
+    position: fixed; /* קיבוע למעלה */
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.navbar-brand, .nav-link {
+    color: #000000 !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the logo and text */
+}
+
+
+
+.main-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-section {
+    padding: 50px 15px;
+    text-align: center;
+    background-image: url(asent/image/ננגננגנג0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-title {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.7);
+}
+
+.card {
+    background-color: transparent;
+    border: 1px solid #fff; /* מסגרת לבנה */
+    color: #3d3d3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* אפקט הריחוף */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* צל לבן */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.7);
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.7);
+}
+
+.project-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* רקע לעמוד הפרויקטים */
+body {
+    background-image: url('asent/image/קreg5.png'); /* נתיב לתמונת הרקע */
+    background-size: cover; /* כיסוי מלא של המסך */
+    background-position: center; /* מיקום במרכז */
+   
+}
+/* עיצוב כללי לסקשן יצירת קשר */
+/* עיצוב כללי לסקשן יצירת קשר */
+#contact {
+    padding: 60px 0;
+    background-color: #f1f1f1; /* צבע רקע אפור בהיר */
+}
+
+#contact h2 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contact .col-md-6 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact .col-md-6 h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+#contact .col-md-6 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact .col-md-6 ul li {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#contact .col-md-6 ul li strong {
+    color: #000;
+}
+
+#contact .col-md-6 ul li a {
+    text-decoration: none;
+    color: #007bff; /* צבע כחול של Bootstrap */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#contact .col-md-6 ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* סגנון לקונטיינר השורה */
+#contact .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* גודל לתמונה אם תרצה להוסיף תמונה */
+#contact .contact-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+/* עיצוב תחתית האתר */
+footer {
+    background-color: #343a40; /* צבע רקע כהה */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/* עיצוב ל-Loading Screen */
+/* עיצוב מסך טעינה */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+audio {
+    display: block; /* הצגת נגן השמע */
+}
+
+/* הסתרת מסך הטעינה */
+#loading-screen.hidden {
+    display: none;
+}
+
+#intro-video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-top: 5px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* הסתרת גלילה בזמן הטעינה */
+body.loading {
+    overflow: hidden;
+}
+
+
+  
